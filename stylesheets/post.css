@@ -1,5 +1,5 @@
 article {
-  padding-bottom: 70px;
+  padding: 50px 0 70px;
 }
 
 article h1,
@@ -42,6 +42,7 @@ article h1 {
   font-size: 40px;
   line-height: 46px;
   margin-top: 50px;
+  padding-bottom: 15px;
 }
 
 article h1 + p {
@@ -78,7 +79,8 @@ img {
 }
 
 article img + p {
-  margin-top: 78px;
+  margin-top: 18px;
+  font-size: 22px;
 }
 
 article h1 + h2 {

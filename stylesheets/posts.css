@@ -55,13 +55,13 @@ section .postTeaser {
     width: calc(100vw - 20px);
     height: calc(100vw - 20px);
   }
-}
 
-@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   .postTeaser {
     width: 100%;
-    color: rgba(0, 0, 0, 0);
+    padding: 0;
+
     border-radius: 0;
+    border: 0;
     border: none;
 
   }
@@ -71,25 +71,25 @@ section .postTeaser {
   .postTeaser h2,
   .postTeaser p,
   article hr {
-    width: calc(100% - 20px);
+
 
   }
 }
 
 @media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   body.posts {
-    background: #FFFFFF;
-    padding: 0;
+    background: none;
+    padding: 70px 0;
   }
-}
 
-@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  body.posts > section {
+    width: calc(100% - 20px);
+  }
+
   .postTeaser:not(:first-child) {
     margin: 0;
   }
-}
 
-@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   .postTeaser p {
     margin-top: 0;
 

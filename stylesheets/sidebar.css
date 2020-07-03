@@ -5,6 +5,8 @@ nav {
   margin: 50px;
   width: 330px;
   padding: 14px 30px 27px;
+  opacity: 0.5;
+  transition: all 0.3s ease;
 }
 
 nav ul {
